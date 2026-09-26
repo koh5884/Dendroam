@@ -71,8 +71,7 @@ function App() {
               fontSize: '0.95rem',
               fontWeight: 500,
               cursor: 'pointer',
-              width: '100%',
-              cursor: 'pointer'
+              width: '100%'
             }}
           >
             ← もとの質問に戻る
@@ -147,6 +146,18 @@ function App() {
             </div>
           </div>
         )}
+
+        {/* --- コピーライト（フッター） --- */}
+        <div style={{
+          marginTop: '40px',
+          borderTop: '1px solid #edf2f7',
+          paddingTop: '20px',
+          textAlign: 'center',
+          fontSize: '0.85rem',
+          color: '#a0aec0'
+        }}>
+          © 2026 Dendroam / koh5884. All rights reserved.
+        </div>
       </div>
     </div>
   );
