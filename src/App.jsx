@@ -52,10 +52,11 @@ function App() {
         <h1 style={{
           fontSize: '1.5rem',
           color: '#2c3e50',
+
           marginTop: '0',
           textAlign: 'center',
           marginBottom: '24px'
-        }}>☀️ 日焼け止め科学探索ネットワーク</h1>
+        }}>☀️ 日焼け止めを塗っても焼けるのはなぜ？</h1>
 
         {historyStack.length > 0 && (
           <button 
